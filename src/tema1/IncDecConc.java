@@ -1,3 +1,4 @@
+package tema1;
 public class IncDecConc {
 	static volatile double x;
 
