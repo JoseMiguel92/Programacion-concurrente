@@ -2,7 +2,7 @@ package tema2;
 
 import java.util.Random;
 
-public class ProductoConsumidor {
+public class Ejercicio1ProductoConsumidor {
 	private static double producto;
 	private static volatile boolean continuar;
 
