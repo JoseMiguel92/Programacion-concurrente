@@ -1,7 +1,5 @@
 package tema3.ProductoConsumidorBien;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 public class EjemploMain {
@@ -28,14 +26,14 @@ public class EjemploMain {
 	}
 
 	public static void main(String[] args) {
-        buffer = new ProductorConsumidorBuffer();
-        List<Thread> threads = new ArrayList<>(NPROD + NCONS);
-        for (int i = 0; i < NPROD; i++) {
-            threads.add(new Thread(() -> productor()));
-        }
-        for (int i = 0; i < NCONS; i++) {
-            threads.add(new Thread(() -> consumidor()));
-        }
-        for (Thread)
-    }
+		// buffer = new ProductorConsumidorBuffer();
+		// List<Thread> threads = new ArrayList<>(NPROD + NCONS);
+		// for (int i = 0; i < NPROD; i++) {
+		// threads.add(new Thread(() -> productor()));
+		// }
+		// for (int i = 0; i < NCONS; i++) {
+		// threads.add(new Thread(() -> consumidor()));
+		// }
+		// for (Thread)
+	}
 }
